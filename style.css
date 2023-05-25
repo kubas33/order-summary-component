@@ -137,3 +137,18 @@ img{
     cursor: pointer;
     color: var(--neutral-dark-blue);
 }
+
+@media only screen and (min-width: 600px) {
+    
+    main {
+        max-width: 450px;
+    }
+
+    body {
+        background-image: url(./images/pattern-background-desktop.svg);
+    }
+    
+    #descr-container {
+        padding: 50px;
+    }
+}
